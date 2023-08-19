@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bg-p{
+    background-image: url(images/places.jpg);
+    background-size:cover ;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 70vh;
+}
+.galley{
+    /* width: 45vw; */
+    padding: 30px;
+    height: auto;
+    /* border: 1px solid red; */
+   
+}
+
+
+.gall-img{
+    width: 100%;
+    border-radius: 22px;
+   height: 300px;
+   box-shadow: 5px 5px 10px #626262;
+   transition: all 0.5s;
+   border: 5px solid white;
+}
+.gall-img:hover{
+    scale: 1.03;
+}
+.gall-img:hover .galley>h3{
+   color: white;
+}
+
+
+.galley>h3{
+    margin-top: -45px;
+   /* color: white; */
+   font-size: 2rem;
+   font-style: italic;
+   text-decoration: underline;
+}
+
+
+
+.txt{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+
+
+
+
+@media screen and (max-width: 480px){
+
+    .bg-p{
+        background-image: url(images/places-mob.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
